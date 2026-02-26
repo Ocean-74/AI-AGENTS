@@ -1,0 +1,7 @@
+Lecture 3 : Overview 
+
+learn about what is workflow
+structure of workspace, project,nodes
+variables 
+
+basic details.
