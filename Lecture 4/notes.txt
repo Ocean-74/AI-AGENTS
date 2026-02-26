@@ -1,0 +1,58 @@
+Lecture 4 : starting n8n
+
+Covering types of nodes: 
+     there are too many types of nodes. today's lecture cover two type of nodes.
+                  i) trigger node
+                 ii) on app event nodes/action nodes
+        other types
+                iii) utilities node
+                 iv) code node
+                  v) AI node
+
+all linked up like a chain.
+
+----> Triggers: Automation Doorbell
+        -Waits for event
+        -Initiates workflows
+        -Perfect timing
+
+----> Actions : The Task Performers
+        -Recive signal : gets notification from trigger
+        -Process request: prepares to perform specific task
+        -Execute Task : Complete the assigned job
+
+----> Utility : Your Digital Toolkit
+        - Data Transformation 
+                converts info from one format to another,
+                making it usable for other nodes
+        - Filtering & Sorting
+                Organize messy data into clean, structured information
+        -Problem Solving
+                provide specialized tools to handle specific challenges in your workflow
+        
+----> Code : Be Your Own Boss
+        -Write Custom Instruction
+                create mini program with specific commands
+        -Process Data Your Way
+                Handle info exactly how you want it
+        -Extend Functionality
+                Add capabilities beyond What's available in Standered nodes
+
+----> Advanced AI : Your Digital Wizard
+        -Inteligent processing
+                make smart decisions based on data
+        -Magical Transformations
+                Turns simple innputs into complex outputs
+        -Creative Solutons
+                Generate new ideas and approches
+it like super smart robots.
+
+
+steps for creating any agent model
+initiallize trigger node
+add action nodes
+connect them via tokens
+            add create/tokens after website to generate token address
+run and test model
+
+this is the basics of n8n learning journey.
