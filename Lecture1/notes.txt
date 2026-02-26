@@ -1,0 +1,20 @@
+What is AI Automation and AI agents?
+    they are two different approches to AI implimentation.
+    but structure and capabilities are different.
+
+AI Automation
+    ex. watchman 
+    do simillar task in rules.
+simple repititive task based strictly on rules.
+
+predictable , doesn't learn or adapt.
+
+ex. email automation , social meadia scheduling,
+smart home Automation , chatbot etc.
+
+AI agents
+    ex. 
+capable of decision making,learn from experience.
+adaptive learning
+ex. smart personal Assistant : siri or google Assistant
+AI sales agents RAG agents
