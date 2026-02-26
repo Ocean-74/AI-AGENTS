@@ -1,0 +1,27 @@
+LECTURE 2 : TOOL
+
+tools for build AI agents :-
+    Make.com
+    zapier
+    Langchain
+    n8n
+
+we use n8n.why?
+    n8n is the most vercetaile web app.
+    n8n can use in 2 ways.
+        i) cloud
+        ii) local host
+
+i) cloud :  data handling happens with online servers.
+            easy for beginners
+            quick setup
+            API calls and HTTP requests are easier
+        
+ii) self host: data ownership and security
+                cost savings
+                fully customizable 
+
+
+principles are same for both method.
+
+use n8n.io
