@@ -1,0 +1,40 @@
+Lecture 5 : Learning nodes
+
+----> Utility Nodes :
+                    -Data tranformation nodes
+                    -flow nodes
+                    -core nodes
+
+                    flow is easier for use in beginning compare to data tranformation nodes
+
+
+                    learn about switch nodes and AI agent nodes
+
+<-----------------------------DRUM ROLL-------------------------------->
+
+n8n Automation: AI-Powered Talent Profiler
+-------------------------------------------------------------
+This repository contains the documentation for my first n8n workflow. The automation takes user input, categorizes it based on profession, generates a custom AI poem, and manages the entire lifecycle within Airtable.
+---------
+🛠️ Workflow Architecture
+
+The workflow follows a linear logic path with a conditional branch for profession-based rating.
+
+    -Data Ingestion: Receives input (Name, Looks, Profession) via an n8n Form Trigger.
+    -Initial Storage: Creates a new record in Airtable.
+    -Logic Switch: Evaluates the Profession dropdown value:
+    -Video Editor ➔ Assigns star rating.
+    -Graphic Designer ➔ Assigns star rating.
+    -AI Manager ➔ Assigns star rating.
+    -Database Update: Updates the existing Airtable record with the assigned rating.
+    -AI Generation: Passes data to an AI Agent powered by Google Gemini 1.5 Flash.
+    -Final Sync: Stores the generated poem back into the Airtable record.
+------------------------------------------
+--------------------------------------------------------------------
+    Component    |    Tool        |    Purpose
+--------------------------------------------------------------------
+Automation Hub   |     n8n        |Workflow orchestration
+Database         |Airtable        |Data storage and CRM
+LLM Model        |Gemini 1.5 Flash|Creative content generation
+Logic            |Switch Node     |Routing based on profession
+--------------------------------------------------------------------
